@@ -1,3 +1,62 @@
 body {
     padding-top: 5rem;
 }
+
+img {
+    margin-top: 25px;
+    border-radius: 50%;
+    height: 180 px;
+    width: 180px;
+}
+
+#body {
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 50%;
+}
+
+#header {
+    text-align: center;
+    background-color: lightblue;
+}
+
+#info {
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 14px;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.numbers div {
+    padding-left: 15px;
+    text-align: center; 
+}
+
+.numbers p {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+#btn1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+button {
+    width: 25%;
+    border-radius: 10px;
+    background-color: lightblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
